@@ -1,0 +1,21 @@
+.app-list {
+    padding: 1em;
+    margin: 1em;
+    td, th {
+        border: 1px #287877 solid;
+        padding: 0.5em;
+    }
+    table {
+        width: 100%;
+    }
+    td.movie{
+        width: 35%;
+    }
+    th {
+        color: #D4CaA0;
+    }
+    tbody tr:hover {
+        background-color: rgba($color: #B3BC92, $alpha: 0.1);
+        cursor: pointer;
+    }
+}
